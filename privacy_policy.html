@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StillGrid Privacy Policy</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --text: #0f172a;
+            --muted: #475569;
+            --border: #e2e8f0;
+            --bg: #ffffff;
+            --accent: #475569;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.65;
+            color: var(--text);
+            background: var(--bg);
+            padding: 20px 16px 48px;
+        }
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 1.75rem;
+            line-height: 1.25;
+            margin: 0 0 8px;
+        }
+        h2 {
+            font-size: 1.125rem;
+            margin: 28px 0 10px;
+            color: var(--accent);
+        }
+        p, li { margin: 0 0 12px; }
+        ul { margin: 0 0 12px; padding-left: 1.25rem; }
+        .meta {
+            color: var(--muted);
+            font-size: 0.95rem;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+        a { color: #2563eb; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 16px;
+            font-size: 0.95rem;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 10px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th { background: #f8fafc; }
+    </style>
+</head>
+<body>
+<main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">
+        <strong>App:</strong> StillGrid – Collage Maker<br />
+        <strong>Package name:</strong> com.stillgrid.collage<br />
+        <strong>Effective date:</strong> June 21, 2026<br />
+        <strong>Last updated:</strong> June 21, 2026
+    </p>
+
+    <p>
+        This Privacy Policy describes how StillGrid (“we”, “us”, or “our”) handles information when you use
+        our Android application StillGrid – Collage Maker (the “App”).
+    </p>
+    <p>
+        StillGrid is an offline collage editor. We do not operate user accounts, and we do not sell personal
+        information. This policy is written to match the App’s actual behavior and declared permissions.
+    </p>
+
+    <h2>1. Summary</h2>
+    <ul>
+        <li>Photo editing happens on your device.</li>
+        <li>We do not collect personal data on our own servers because the App does not send your data to us.</li>
+        <li>The App does not declare Internet, location, camera, microphone, contacts, or storage permissions.</li>
+        <li>We do not use analytics SDKs, advertising SDKs, or crash-reporting services that transmit your data to us.</li>
+        <li>Some app settings and project data are stored locally on your device and may be included in Android backup if you enable it.</li>
+    </ul>
+
+    <h2>2. Information the App Processes</h2>
+    <p>
+        The App processes information only to provide collage editing features. We do not require you to create
+        an account or provide your name, email address, or phone number to use the App.
+    </p>
+
+    <h3>2.1 Photos and media you choose</h3>
+    <p>
+        When you pick photos, replace a cell image, or open images shared from another app, the App accesses
+        only the items you select through Android system pickers or share intents. Images are loaded and edited
+        on your device to display previews and to create exported collages.
+    </p>
+    <p>
+        We do not upload your photos to our servers. Photos remain under your control on your device unless
+        you export them to your gallery or share them through Android’s share sheet.
+    </p>
+
+    <h3>2.2 Project and editing data stored locally</h3>
+    <p>To support drafts and recent projects, the App stores data locally on your device, including:</p>
+    <ul>
+        <li>Project titles and editing state (layout, spacing, text, backgrounds, and related settings)</li>
+        <li>References to photos you selected (such as content URIs), not copies of your entire photo library</li>
+        <li>Optional thumbnail cache files to speed up recent-project previews</li>
+    </ul>
+    <p>
+        This data is stored in the App’s local database and app storage. Uninstalling the App removes this
+        local app data from your device, except for images you already exported to your gallery.
+    </p>
+
+    <h3>2.3 App preferences</h3>
+    <p>The App stores local preferences such as:</p>
+    <ul>
+        <li>Whether onboarding was completed</li>
+        <li>Theme choice (system, light, or dark)</li>
+        <li>Default export format, quality, and resolution</li>
+    </ul>
+
+    <h3>2.4 Exported images</h3>
+    <p>
+        When you export a collage, the App saves an image file to your device gallery in a
+        <strong>Pictures/StillGrid</strong> folder using Android’s MediaStore APIs. Export happens locally on
+        your device. We do not receive exported files.
+    </p>
+
+    <h2>3. Android Permissions</h2>
+    <p>
+        Based on the App’s manifest, StillGrid does <strong>not</strong> request dangerous runtime permissions
+        such as Internet access, camera access, location access, microphone access, or broad storage access.
+    </p>
+    <p>The App uses standard Android platform features instead, including:</p>
+    <ul>
+        <li><strong>Photo Picker / visual media picker</strong> – for you to choose photos without granting the App full gallery access on supported Android versions</li>
+        <li><strong>MediaStore</strong> – to save exported images you choose to create</li>
+        <li><strong>Share intents</strong> – to open images shared to the App from other apps, only when you initiate that action</li>
+    </ul>
+    <p>
+        The release build may include an internal AndroidX signature permission used for app-internal
+        components. This permission is not used to access your personal data and is not granted to other apps.
+    </p>
+
+    <h2>4. How We Use Information</h2>
+    <p>We use the information described above only to:</p>
+    <ul>
+        <li>Display and edit collages you create</li>
+        <li>Save and restore your recent projects on your device</li>
+        <li>Remember your app settings</li>
+        <li>Export images when you choose to do so</li>
+        <li>Respond if you contact us by email</li>
+    </ul>
+    <p>We do not use your information for targeted advertising or cross-app tracking.</p>
+
+    <h2>5. Data Sharing and Disclosure</h2>
+    <p>
+        We do not sell, rent, or trade your personal information. We do not share your photos or project data
+        with third parties for marketing or analytics.
+    </p>
+    <p>You may choose to share an exported image using Android’s system share features. Any recipient or app
+        you select through the share sheet is outside StillGrid and governed by that service’s policies.</p>
+    <p>We may disclose information only if required by law or to protect rights, safety, and security where
+        legally permitted.</p>
+
+    <h2>6. Third-Party Services</h2>
+    <p>
+        The App does not embed third-party analytics, advertising, or social-login SDKs that collect personal
+        data for us. The App works offline and does not require a network connection for core editing features.
+    </p>
+    <p>
+        The App includes standard Android/Jetpack libraries (for example, UI, database, and preferences
+        components). These libraries operate within the App on your device and do not send your collage content
+        to us.
+    </p>
+
+    <h2>7. Device Backup and Transfer</h2>
+    <p>
+        Android backup and device-to-device transfer may be enabled in the App configuration. If you use
+        Google’s backup or device transfer features on your device, certain local app data (such as preferences
+        and saved project metadata) may be copied by Android to your Google account backup or to another device
+        according to your device settings.
+    </p>
+    <p>
+        We do not control Google’s backup systems. Please review your Android backup settings if you do not
+        want this data included in cloud backup.
+    </p>
+
+    <h2>8. Data Retention</h2>
+    <ul>
+        <li><strong>Local project data:</strong> kept on your device until you delete a project, clear app data, or uninstall the App</li>
+        <li><strong>Thumbnail cache:</strong> kept until you clear it in Settings or remove app data</li>
+        <li><strong>Exported images:</strong> remain in your gallery until you delete them</li>
+        <li><strong>Support emails:</strong> if you email us, we retain correspondence only as long as needed to respond and maintain support records</li>
+    </ul>
+
+    <h2>9. Your Choices and Rights</h2>
+    <p>You can:</p>
+    <ul>
+        <li>Choose which photos the App can access by selecting them in the system picker</li>
+        <li>Delete recent projects inside the App</li>
+        <li>Clear thumbnail cache in Settings</li>
+        <li>Remove exported images from your gallery at any time</li>
+        <li>Delete all local App data through Android system settings or by uninstalling the App</li>
+        <li>Manage Android backup settings on your device</li>
+    </ul>
+    <p>
+        Depending on where you live, you may have additional privacy rights under applicable law. Because we do
+        not maintain user accounts or collect personal data on our servers, many requests can be fulfilled
+        directly by you through the actions above. You may contact us for questions about this policy.
+    </p>
+
+    <h2>10. Children’s Privacy</h2>
+    <p>
+        The App is not directed at children under 13, and we do not knowingly collect personal information from
+        children under 13. If you believe a child has provided personal information to us by email, please
+        contact us and we will take appropriate steps to delete that correspondence.
+    </p>
+
+    <h2>11. Security</h2>
+    <p>
+        We design the App to process data locally on your device. No method of storage or transmission is
+        completely secure, but we do not operate backend servers that store your collage photos.
+    </p>
+
+    <h2>12. International Users</h2>
+    <p>
+        The App is provided for local use on your device. If you contact us by email, your message may be
+        processed in the location where we handle support correspondence.
+    </p>
+
+    <h2>13. Changes to This Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. If we make material changes, we will update the
+        “Last updated” date above. The current version is available in the App under About &amp; Legal and at
+        the hosted policy URL published on Google Play, if provided.
+    </p>
+
+    <h2>14. Contact Us</h2>
+    <p>
+        If you have questions or requests regarding this Privacy Policy or the App, contact us at:
+    </p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:pydeads022@gmail.com">pydeads022@gmail.com</a>
+    </p>
+</main>
+</body>
+</html>
